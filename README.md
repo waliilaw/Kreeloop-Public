@@ -1,11 +1,10 @@
-<img src="assets/wordmark.jpg" alt="Kreeloop" width="300">
+<img src="assets/heading.png" alt="Kreeloop" width="430">
 
 An AI design mentor that runs inside Adobe Express. You say what the design is for; it reads the
 page, measures what can actually be measured, and answers with a score, six craft ratings, fixes
 that apply to the canvas in one tap, and a palette pulled out of your own design.
 
 **[Install it from the Adobe Express marketplace](https://adobesparkpost.app.link/TR9Mb7TXFLb?addOnId=wlnj499hh)**
-
 
 ## What this repository is
 
@@ -136,7 +135,6 @@ defect. The server: key pool, rotation, model pinning, retry budget, quota accou
 Anything from the listing or the review correspondence.
 
 Two reasons. It is a live product, and a complete copy of an add-on teaches nobody anything.
-
 
 ![Kreeloop open beside a design in Adobe Express](assets/kreeloop.jpg)
 
