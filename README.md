@@ -1,16 +1,12 @@
-<img src="assets/logo.png" width="88" align="right" alt="">
-
-# Kreeloop
+<img src="assets/heading.png" alt="Kreeloop" width="430">
 
 An AI design mentor that runs inside Adobe Express. You say what the design is for; it reads the
 page, measures what can actually be measured, and answers with a score, six craft ratings, fixes
 that apply to the canvas in one tap, and a palette pulled out of your own design.
 
-It is published on the Adobe Express marketplace. It was approved on the ninth review round.
+**[Install it from the Adobe Express marketplace](https://adobesparkpost.app.link/TR9Mb7TXFLb?addOnId=wlnj499hh)** — approved on the ninth review round.
 
-![The panel: you say what the design is for](assets/panel.png)
-
-![The report: one score, six craft ratings, and the fixes underneath](assets/report.png)
+![Kreeloop open beside a design in Adobe Express](assets/kreeloop.jpg)
 
 ## What this repository is
 
@@ -124,6 +120,9 @@ range argument instead of painting the whole text flow.
 ```
 node testing/run.js
 ```
+
+That runs 140 assertions against the modules in `patterns/`, and every one of them has been watched
+failing: change a WCAG floor, flip a division in the sRGB curve or drop a guard and the run goes red.
 
 The same approach scales past this repository: the private build drives the real panel in headless
 Chrome over CDP at 356×700 — a true Express panel size — and measures text contrast from decoded
